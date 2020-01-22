@@ -22,4 +22,4 @@ for i in $(find . -name ".git" | cut -c 3-); do
     cd $CUR_DIR
 done
 
-echo "\n\033[32mComplete!\033[0m\n" > pull.log
+echo "\n\033[32mComplete!\033[0m\n"
